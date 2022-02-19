@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript</title>
+    
+  </head>
+  <body>
+    <a class="open" href="https://google.com">Google</a>
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <a class="linked" href="https://linkedin.com">Elzero</a>
+
+    
+
+
+    
+    <script src="main.js"></script>
+    <script>
+      // Your Code Here
+      
+
+  var element = document.getElementsByClassName('open');
+
+  for(var i=0; i<2; i++){
+    if(element[i].textContent == "Elzero")
+    
+    window.open(`${element[i].href}`);
+  }
+    </script>
+  </body>
+</html>

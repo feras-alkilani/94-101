@@ -1,0 +1,12 @@
+#ebaa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ebaa > div
+{
+    margin: 0 15px;
+    flex: 0 0 auto;
+}
